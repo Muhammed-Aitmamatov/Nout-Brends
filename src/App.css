@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+ 
+}
+  img{
+    width: 150px;
+    height: 90px;
+    border-radius: 15px;
+  
+  }
+  
+  .noutclass{
+    padding: 1em;
+    border: 1px solid;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+   background-color: rgb(136, 210, 247);
+   border-radius: 20px;
+  
+  }
+  
+
+
+  .noutclass:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+   
+  }
+  
+  
+ 
+  
+  .noutclass button{
+    width: 150px;
+    margin-top: 25px;
+    padding: 10px 10px;
+    background-color: rgb(207, 206, 156);
+    color: rgb(158, 17, 17);
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+  }
+  
+  
+  body{
+    background-color: "https://fotoblik.ru/wp-content/uploads/2023/09/oboi-na-rabochii-stol-vindovs-10-1.webp";
+   
+    
+  
+  }
+  h1{
+    
+    font-size: 17px;
+  }
+
+  .divclass1{
+    border: 10px solid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+  }
+
+
+  .globaldiv1{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    width: 470px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    background-color: rgb(131, 60, 157);
+    padding: 15px;
+}
+  .div2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+ 
+    
+  }
+
+  .div3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .div2 input{
+    padding: 5px;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+  }
+
+  .div3 input{
+    padding: 5px;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+  }
